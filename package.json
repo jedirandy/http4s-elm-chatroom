@@ -1,0 +1,14 @@
+{
+  "name": "neko",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cp src/main/webapp/index.html . && ./node_modules/.bin/elm-make src/main/webapp/index.elm --output=index.js --yes"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "create-elm-app": "^1.8.0"
+  }
+}

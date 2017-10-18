@@ -1,0 +1,10 @@
+target/
+node_modules/
+elm-stuff/
+project/*
+!project/build.properties
+!project/Dependencies.scala
+.idea/
+index.html
+index.js
+.DS_STORE
